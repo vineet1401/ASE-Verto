@@ -33,7 +33,6 @@ ASE-VERTO/
       App.js
       App.css
       ...
-  LowLevelDesign.md
   README.md
 ```
 
