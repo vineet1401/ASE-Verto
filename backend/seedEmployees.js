@@ -7,8 +7,8 @@ const seedEmployees = async () => {
   await initDb();
   const db = getDb();
   for (let i = 1; i <= 100; i++) {
-    const name = `Virto Employee ${i}`;
-    const email = `vineet.virto.${i}@virto.com`;
+    const name = `Verto Employee ${i}`;
+    const email = `vineet.verto.${i}@verto.com`;
     const position = positions[i % positions.length];
     try {
       await db.run('INSERT INTO employees (name, email, position) VALUES (?, ?, ?)', [name, email, position]);

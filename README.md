@@ -1,7 +1,7 @@
+
 # Employee Management System
 
 A Employee Management System with a Node.js/Express/SQLite backend and a React/Redux frontend. The app supports CRUD operations, validation, pagination, and search for employee records.
-
 ---
 
 ## Features
@@ -11,38 +11,7 @@ A Employee Management System with a Node.js/Express/SQLite backend and a React/R
 - Form validation (frontend and backend)
 - Toast notifications for actions and errors
 - Modular code structure (MVC backend, component-based frontend)
-
----
-
-## Project Structure
-```
-ASE-VERTO/
-  backend/
-    controllers/
-    models/
-    routes/
-    validators/
-    employees.db
-    server.js
-    ...
-  frontend/
-    src/
-      components/
-      features/
-      slices/
-      App.js
-      App.css
-      ...
-  README.md
-```
-
----
-
-## Prerequisites
-- Node.js (v16 or later recommended)
-- npm (comes with Node.js)
-
----
+- Redux Toolkit for state management and async logic
 
 ## Backend (Node.js/Express/SQLite)
 
@@ -188,11 +157,12 @@ frontend/
 ## Future Scope
 - Backend can add filtering/search endpoints for large datasets.
 - Frontend can add role-based access, advanced filters, or export features.
-e/update requests are validated using Joi schemas in `employeeValidator.js`.
 
 ---
 
 ## Author
 - Vineet Sakpal
-
 ---
+
+![Employee Management System Logo](./HLD.png)
+
